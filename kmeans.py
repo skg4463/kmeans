@@ -11,7 +11,7 @@ pixel_values = np.float32(pixel_values)
 
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
 
-K = 4
+K = 3
 
 print("pixels :", pixel_values.shape[0])
 print("Cluster: ", K)
